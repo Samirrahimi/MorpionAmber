@@ -1,0 +1,32 @@
+.grille {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    background: repeat url(../image/Riven.png);
+    background-size: 0.2%;
+}
+
+.case {
+    border: 2px solid #000;
+}
+.case2 {
+    border-left: none;
+    border-right: none;
+}
+.case4 {
+    border-top: none;
+    border-bottom: none;
+}
+.case5 {
+    border: none;
+}
+.case6 {
+    border-top: none;
+    border-bottom: none;
+}
+.case8 {
+    border-left: none;
+    border-right: none;
+}
